@@ -5,7 +5,7 @@
 嵌入之后**不需要**再随包分发后端源码、`pyproject.toml`、`uv.lock` 了——
 Python 运行时 + 依赖 + 源码全都进了 `ipod_manager.exe` 那个目录：
 
-    iPodWithNeteaseCloudMusic-v0.2.0-windows-x64/
+    iPod-Playlist-Sync-v0.2.0-windows-x64/
     └── 使用说明.txt           ← 给用户看的说明
     ├── 使用说明.txt
     ├── ipod_manager.exe
@@ -43,7 +43,7 @@ ROOT = Path(__file__).resolve().parent.parent
 APP = ROOT / "app"
 RELEASE_BUILD = APP / "build" / "windows" / "x64" / "runner" / "Release"
 OUT_ROOT = ROOT / "release"
-NAME = "iPodWithNeteaseCloudMusic"
+NAME = "iPod-Playlist-Sync"
 
 #: 构建产物里必须有的东西。缺一个都说明包是坏的，宁可在这里失败
 REQUIRED = ("ipod_manager.exe", "Lib", "site-packages", "app", "DLLs", "data")

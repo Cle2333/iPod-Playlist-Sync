@@ -1,4 +1,4 @@
-# iPodWithNeteaseCloudMusic
+# iPod-Playlist-Sync
 
 把**网易云音乐**的歌单和「我喜欢的音乐」下载到电脑，再同步进 **iPod Classic**。
 
@@ -36,8 +36,8 @@
 
 ## 下载即用（推荐）
 
-去 [Releases](https://github.com/Cle2333/iPodWithNeteaseCloudMusic/releases) 下
-`iPodWithNeteaseCloudMusic-v*-windows-x64.zip`，解压，双击 `ipod_manager.exe`。
+去 [Releases](https://github.com/Cle2333/iPod-Playlist-Sync/releases) 下
+`iPod-Playlist-Sync-v*-windows-x64.zip`，解压，双击 `ipod_manager.exe`。
 
 **不需要装任何东西**——Python 运行时、node 运行时、网易云 API 都在包里，也不需要联网初始化。
 （包约 99 MB：里面带着 CPython 3.13 和 Node 22 两个运行时，以及网易云 API 那一整套。）

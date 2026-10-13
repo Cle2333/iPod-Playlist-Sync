@@ -19,7 +19,7 @@
 import sys
 from pathlib import Path
 
-REPO = Path(r"C:/Users/ROG/source/repos/iPodWithNeteaseCloudMusic")
+REPO = Path(r"C:/Users/ROG/source/repos/iPod-Playlist-Sync")
 sys.path.insert(0, str(REPO / "src"))
 
 from ipod_cli.discovery import require_ipod  # noqa: E402
