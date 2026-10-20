@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="app/windows/runner/resources/app_icon.png" width="120" alt="iPod-Playlist-Sync">
+</p>
+
 # iPod-Playlist-Sync
 
 把**网易云音乐**的歌单和「我喜欢的音乐」下载到电脑，再同步进 **iPod Classic**。
